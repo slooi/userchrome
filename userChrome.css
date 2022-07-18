@@ -1,0 +1,63 @@
+#urlbar-container {
+	height: 20px !important;
+	--urlbar-container-height: 20px !important;
+	margin-top: -12px;
+}
+#nav-bar {
+	height: 32px !important; /* THIS IS THE ONE */
+	margin-top: -13px;
+	z-index: 100;
+}
+
+#urlbar {
+	--urlbar-toolbar-height: 55px !important;
+}
+
+#urlbar[breakout-extend="true"] {
+	margin-top: 12px; /* moves search textfield down  moves url/search popup down */
+}
+/* Title bar is the top line with the tabs, minimise, maximise and exit buttons 
+*/
+#titlebar {
+	margin-top: -6px !important;
+}
+
+/* TabsToolbar padding-bottom - creates seperation between titlebar and url line / 2nd line */
+#TabsToolbar {
+	padding-bottom: 6px !important;
+}
+
+/* reduces height of tab toolbar  */
+
+#forward-button *,
+#back-button * {
+	padding: 6px !important;
+	height: 30px !important;
+}
+
+#stop-reload-button * {
+	width: 50px !important;
+}
+
+#forward-button,
+#back-button,
+#stop-reload-button {
+	margin: -0px 10px !important;
+}
+
+.webextension-browser-action {
+	margin-top: -0px !important;
+}
+
+#PanelUI-menu-button {
+	margin-top: -0px !important;
+}
+
+#tabs-newtab-button {
+	margin-top: 0px !important;
+}
+
+.tabbrowser-tab {
+	padding: 0 !important;
+	border-right: 1px solid rgb(221, 221, 221) !important;
+}
